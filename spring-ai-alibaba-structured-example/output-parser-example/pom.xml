@@ -38,6 +38,8 @@
 
 		<!-- Spring AI -->
 		<spring-ai-alibaba.version>1.0.0-M3.2</spring-ai-alibaba.version>
+		<fasterxml-classmate.version>1.5.1</fasterxml-classmate.version>
+
 	</properties>
 
 	<dependencies>
@@ -51,6 +53,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		
+		<dependency>
+			<groupId>com.fasterxml</groupId>
+			<artifactId>classmate</artifactId>
+			<version>${fasterxml-classmate.version}</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
